@@ -1,0 +1,156 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: large;}
+
+#container {width: 1300px;
+        margin: 0 auto;
+        background-color: #2ba8d9;}
+        
+#container1 {width: 1300px;
+            height: 120px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            color: white;
+            text-transform: uppercase;}
+
+            .op {display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    background-color: #ff675a;}
+            
+#introducao {width: 1300px;
+        height: 450px;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #ff675a;}
+
+        #equipe {width: 700px;
+                height: 400px;
+                margin-top: 20px;
+                margin-left: 20px;}
+
+                #nome {display: flex;
+                        justify-content: left;
+                        margin-top: 20px;
+                        text-transform: uppercase;
+                        font-size: 40px;
+                        color: white;}
+
+                        #funcao {display: flex;
+                                justify-content: left;
+                                text-transform: uppercase;
+                                font-size: 20px;
+                                color: white;}
+
+                                #lorem__nome {width: 500px;
+                                                display: flex;
+                                                margin-top: 50px;
+                                                font-size: 17px;
+                                                color: white;}
+
+#trabalhos {width: 1300px;
+        height: 90px;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: white;
+        background-color: #fac17e;}
+
+#artigos {width: 1300px;
+        height: 600px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fac17e;}
+
+#artigo1 {width: 350px;
+        height: 100px;
+        margin-top: 50px;
+        background-color: #2fb2e6;}
+
+        #sites {width: 350px;
+                text-align: center;
+                font-size: 25px;
+                color: white;
+                background-color: #2fb2e6;}
+
+                #computadores {width: 350px;
+                                background-color: #2fb2e6;}
+
+                        #lorem__trabalhos {width: 350px;
+                                        height: 200px;
+                                        text-align: justify;
+                                        color: white;
+                                        background-color: #2fb2e6;}
+
+#artigo2 {width: 350px;
+        height: 200px;
+        background-color: #fac17e;}
+
+        #sistema {width: 350px;
+                margin-top: 50px;
+                text-align: center;
+                font-size: 25px;
+                color: white;
+                background-color: #ff675a;}
+                        
+                #modelos {width: 350px;
+                        background-color: #ff675a;}
+                        
+                        #lorem__sistema {width: 350px;
+                                        height: 200px;
+                                        text-align: justify;
+                                        color: white;
+                                        background-color: #ff675a;}
+                
+
+#artigo3 {width: 350px;
+        height: 200px;
+        background-color: #fac17e;}
+                
+        #projetos {width: 350px;
+                margin-top: 50px;
+                text-align: center;
+                font-size: 25px;
+                color: white;
+                background-color: #63bf9e;}
+                                
+                        #grupo {width: 350px;
+                                background-color: #63bf9e;}
+                                        
+                                #lorem__projetos {width: 350px;
+                                                height: 235px;
+                                                text-align: justify;
+                                                color: white;
+                                                background-color: #63bf9e;}
+
+#agradecimento {width: 1300px;
+                height: 400px;
+                display: flex;
+                flex-flow: column wrap;
+                background-color: #2ba8d9;}
+
+        #contato {margin-top: 20px;
+                text-transform: uppercase;
+                font-size: 40px;
+                color: white;}
+
+                .dados {display: flex;
+                        align-self: center;
+                        margin-top: 50px;
+                        color: white;}
+
+                                #mapa {align-self: flex-end;
+                                        margin-top: 70px;
+                                        margin-right: 20px;}
+
+#fim {height: 120px;
+        display: flex;
+        justify-content: center;}
+
+@media (max-width: 320px) {
+        
+}
